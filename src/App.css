@@ -16,28 +16,6 @@
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 370px) {
-  .navbar,
-  .hero-container,
-  .card-container,
-  .accordion-about-container,
-  .sliders,
-  .accordion-container,
-  .house-infos-container,
-  .house-infos-details,
-  .house-host-rating,
-  .img-hero-section-about {
-    margin: 0%!important;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  .navbar,
-.house-infos-container {
-  margin: 0% 17%!important;
-}
-}
-
 .card-container,
 .hero-container {
   margin-bottom: 2rem!important;
@@ -48,12 +26,7 @@
   margin: 0% 17.5%!important;
 }
 
-@media only screen and (max-width: 370px) {
-  .card-container {
-    width: 90%;
-    margin-left: 0.5rem!important;
-  }
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -102,4 +75,63 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (min-width: 1025px) {
+  .navbar,
+.house-infos-container {
+  margin: 0% 14%!important;
+}
+}
+
+@media only screen and (min-width: 1025px) {
+.house-infos-container {
+  margin: 0% 17%!important;
+}
+}
+
+@media only screen and (max-width: 470px) {
+  .navbar,
+  .hero-container,
+  .card-container,
+  .accordion-about-container,
+  .sliders,
+  .accordion-container,
+  .house-infos-container,
+  .house-infos-details,
+  .house-host-rating,
+  .img-hero-section-about {
+    margin: 0!important;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .card-container {
+    width: 87%;
+    margin-left: 1rem!important;
+    margin-top: 2rem!important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .navbar,
+  .hero-container,
+  .card-container,
+  .accordion-about-container,
+  .sliders,
+  .accordion-container,
+  .house-infos-container,
+  .house-infos-details,
+  .house-host-rating,
+  .img-hero-section-about {
+    margin: 0!important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .card-container {
+    width: 90%;
+    margin-left: 0.5rem!important;
+    margin-top: 2rem!important;
+  }
 }

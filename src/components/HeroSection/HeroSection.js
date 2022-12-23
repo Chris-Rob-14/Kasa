@@ -9,9 +9,6 @@ function HeroSection() {
       <p className="message-404">
         Oups! La page que vous demandez n'existe pas.
       </p>
-      <p className="message-404">
-        Cliquez sur le logo ou les liens pour accéder à une autre page.
-      </p>
       <Link to="/" className="link-back-to-home">
         <button className="return__button">
           Retournez sur la page d’accueil

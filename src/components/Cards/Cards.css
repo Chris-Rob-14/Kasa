@@ -39,9 +39,34 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media only screen and (max-width: 1024px) {
+  .house-image {
+    width: 40rem;
+    height: 25rem;
+  }
+  .house-link {
+    height: 25rem;
+  }
+
+  .item-title {
+    width: 13rem;
+    font-size: 1rem;
+    top: -4.5rem;
+  }
+
+  .card-container {
+    margin-left: 2rem!important;
+    width: 78%;
+  }
+
+  .card-item {
+    gap: 2rem;
+  }
+}
+
 @media only screen and (max-width: 470px) {
   .house-image {
-    width: 20rem;
+    width: 21rem;
     height: 15rem;
   }
   .house-link {
@@ -62,31 +87,6 @@
   }
   .house-link {
     height: 15rem;
-  }
-
-  .item-title {
-    width: 13rem;
-    font-size: 1rem;
-    top: -4.5rem;
-  }
-
-  .card-container {
-    margin-left: 2rem!important;
-    width: 78%;
-  }
-
-  .card-item {
-    gap: 2rem;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .house-image {
-    width: 40rem;
-    height: 25rem;
-  }
-  .house-link {
-    height: 25rem;
   }
 
   .item-title {
