@@ -22,16 +22,22 @@
   .card-container,
   .accordion-about-container,
   .sliders,
-  .house-infos-container,
   .accordion-container,
+  .house-infos-container,
+  .house-infos-details,
+  .house-host-rating,
   .img-hero-section-about {
     margin: 0%!important;
   }
 }
 
+@media only screen and (min-width: 1025px) {
+  .navbar,
 .house-infos-container {
   margin: 0% 17%!important;
 }
+}
+
 .card-container,
 .hero-container {
   margin-bottom: 2rem!important;

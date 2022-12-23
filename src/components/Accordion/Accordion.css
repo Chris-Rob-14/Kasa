@@ -92,7 +92,7 @@ span {
 
 @media only screen and (max-width: 536px) {
   .accordion-house-title {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   span {
     font-size: 2rem;
