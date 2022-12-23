@@ -2,6 +2,53 @@
   text-align: center;
 }
 
+.navbar,
+.hero-container,
+.accordion-about-container,
+.sliders,
+.house-infos-container,
+.accordion-container,
+.img-hero-section-about {
+  margin: 0% 14%!important;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 370px) {
+  .navbar,
+  .hero-container,
+  .card-container,
+  .accordion-about-container,
+  .sliders,
+  .house-infos-container,
+  .accordion-container,
+  .img-hero-section-about {
+    margin: 0%!important;
+  }
+}
+
+.house-infos-container {
+  margin: 0% 17%!important;
+}
+.card-container,
+.hero-container {
+  margin-bottom: 2rem!important;
+}
+
+.card-container {
+  width: 64%;
+  margin: 0% 17.5%!important;
+}
+
+@media only screen and (max-width: 370px) {
+  .card-container {
+    width: 90%;
+    margin-left: 0.5rem!important;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

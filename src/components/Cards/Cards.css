@@ -1,6 +1,5 @@
 .card-container {
   background: #f7f7f7;
-  margin: 3rem;
   border-radius: 25px;
   padding: 10px;
   display: flex;
@@ -10,7 +9,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .card-list {
@@ -25,17 +24,17 @@
 }
 
 .house-image {
-  width: 20rem;
-  height: 20rem;
+  width: 21rem;
+  height: 21rem;
   border-radius: 10px;
   filter: brightness(0.7);
 }
 
 .item-title {
   color: white;
-  width: 10rem;
+  width: 13rem;
   position: relative;
-  top: -7rem;
+  top: -5rem;
   left: 1rem;
   font-family: "Montserrat", sans-serif;
 }
@@ -58,16 +57,25 @@
 
 @media only screen and (max-width: 370px) {
   .house-image {
-    width: 15rem;
-    height: 10rem;
+    width: 20rem;
+    height: 16rem;
   }
   .house-link {
-    height: 10rem;
+    height: 15rem;
   }
 
   .item-title {
     width: 13rem;
     font-size: 1rem;
     top: -4.5rem;
+  }
+
+  .card-container {
+    margin-left: 2rem!important;
+    width: 78%;
+  }
+
+  .card-item {
+    gap: 2rem;
   }
 }

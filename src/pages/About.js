@@ -7,7 +7,7 @@ import HeroSectionAboutImage from "../images/HeroSectionAbout.png";
 function About() {
   return (
     <div>
-      <div>
+      <div className="img-hero-section-about">
         <img
           src={HeroSectionAboutImage}
           className="hero-section-image"
