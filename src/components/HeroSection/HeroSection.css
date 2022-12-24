@@ -105,6 +105,18 @@ h1 {
     margin: 0% 15%;
     text-align: center;
   }
+
+  .hero-section-image {
+    width: 90%;
+    height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    position: relative;
+    filter: brightness(0.7);
+  }
 }
 @media only screen and (max-width: 356px) {
   .letter-404 {
