@@ -4,7 +4,7 @@
 }
 
 .accordion-house {
-  width: 42%;
+  width: 90%;
   height: 100%;
   margin: 2rem auto;
 }
@@ -65,6 +65,12 @@ span {
 @media only screen and (min-width: 1200px) {
   .accordion {
     width: 84%;
+  }
+
+  .accordion-house {
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
   }
 }
 
