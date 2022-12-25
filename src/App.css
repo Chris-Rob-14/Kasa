@@ -26,8 +26,6 @@
   margin: 0% 17.5%!important;
 }
 
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -77,21 +75,32 @@ code {
     monospace;
 }
 
+.accordion-container{
+margin: 0% 14.5%!important;
+}
+
 @media only screen and (min-width: 1025px) {
   .navbar,
 .house-infos-container {
   margin: 0% 14%!important;
 }
-
-.accordion-container{
-margin: 0% 17%!important;
-}
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1028px) {
 .house-infos-container {
   margin: 0% 17%!important;
 }
+.accordion-about-container {
+margin: 4% 16%!important;
+width: 80%;
+}
+}
+
+@media only screen and (max-width: 1025px) {
+.accordion-about-container {
+  margin: 5% 16%!important;
+  width: 72%;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -138,4 +147,9 @@ margin: 0% 17%!important;
     margin-left: 0.5rem!important;
     margin-top: 2rem!important;
   }
+
+  .accordion-about-container {
+    margin: 5% 1%!important;
+    width: 99%;
+}
 }

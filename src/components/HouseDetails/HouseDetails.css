@@ -81,6 +81,7 @@
   .house-infos-details {
     justify-content: center;
     align-items: center;
+    width: 90%;
   }
   .house-tags {
     justify-content: center;
@@ -91,9 +92,50 @@
   }
 }
 
+
+@media only screen and (max-width: 1025px) {
+  .host-rating {
+  position: absolute;
+  left: 18.33%;
+  top: 116.33%;
+  }
+  
+  .host-infos-container{
+    position: relative;
+    left: 170%;
+    margin-bottom: 1rem;
+  }
+  }
+
 @media only screen and (max-width: 735px) {
   .house-tags {
-    flex-direction: column;
-    width: 40%;
+    width: 90%;
   }
+}
+@media only screen and (max-width: 470px) {
+  .host-rating {
+  position: absolute;
+  left: 5.33%;
+  top: 58.33%;
+  }
+  
+  .host-infos-container{
+    position: relative;
+    left: 58%;
+    margin-bottom: 1rem;
+  }
+  }
+
+@media only screen and (max-width: 370px) {
+.host-rating {
+position: absolute;
+left: 5.33%;
+top: 71.33%;
+}
+
+.host-infos-container{
+  position: relative;
+  left: 58%;
+  margin-bottom: 1rem;
+}
 }

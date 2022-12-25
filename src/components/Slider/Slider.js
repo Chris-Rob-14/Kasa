@@ -16,6 +16,10 @@ function Slider({ pictures }) {
   return (
     <div className="sliders">
       <img src={pictures[current]} className="slide-image" alt="slides" />
+      <span className='slider-counter'>
+                {( current) ? current + 1 : 1 }
+                { pictures.img && pictures.img.length }
+            </span>
       <FaChevronLeft onClick={prev} className="left-arrow">
         Prev
       </FaChevronLeft>
