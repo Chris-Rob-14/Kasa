@@ -124,6 +124,10 @@ width: 80%;
     margin-left: 1rem!important;
     margin-top: 2rem!important;
   }
+  .accordion-about-container {
+      margin: 2% 2%!important;
+      width: 98%;
+    }
 }
 
 @media only screen and (max-width: 370px) {
