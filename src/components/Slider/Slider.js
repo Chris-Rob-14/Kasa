@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Slider.css";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import arrowLeft from "../../images/arrowLeft.svg";
+import arrowRight from "../../images/arrowRight.svg";
 
 function Slider({ pictures }) {
   const [current, setCurrent] = useState(0);
@@ -16,16 +17,20 @@ function Slider({ pictures }) {
   return (
     <div className="sliders">
       <img src={pictures[current]} className="slide-image" alt="slides" />
-      <span className='slider-counter'>
+      {length > 1 ? (
+        <>
+        <span className='slider-counter'>
                 {( current) ? current + 1 : 1 }
                 { pictures.img && pictures.img.length }
             </span>
-      <FaChevronLeft onClick={prev} className="left-arrow">
-        Prev
-      </FaChevronLeft>
-      <FaChevronRight onClick={next} className="right-arrow">
-        Next
-      </FaChevronRight>
+          <div className="left-arrow" onClick={prev}>
+            <img src={arrowLeft} alt="" className="left-arrow" />
+          </div>
+          <div className="right-arrow" onClick={next}>
+            <img src={arrowRight} alt="" className="right-arrow" />
+          </div>
+        </>
+      ) : null}
     </div>
   );
 }

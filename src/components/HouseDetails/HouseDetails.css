@@ -44,7 +44,7 @@
 
 .house-host-rating {
   display: flex;
-  flex-direction: column;
+  
 }
 
 .host-infos-container {
@@ -93,11 +93,11 @@
 }
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
   .host-rating {
   position: absolute;
   left: 18.33%;
-  top: 116.33%;
+  top: 89.33%;
   }
   
   .host-infos-container{
@@ -114,9 +114,14 @@
 }
 @media only screen and (max-width: 470px) {
   .host-rating {
-  position: absolute;
-  left: 5.33%;
-  top: 58.33%;
+    position: relative;
+    left: -220px;
+    top: 7px;
+  }
+
+  .house-tags {
+    width: 100%;
+    font-size: 0.7rem;
   }
   
   .host-infos-container{
@@ -127,11 +132,16 @@
   }
 
 @media only screen and (max-width: 370px) {
-.host-rating {
-position: absolute;
-left: 5.33%;
-top: 71.33%;
-}
+  .host-rating {
+    position: relative;
+    left: -200px;
+    top: 7px;
+  }
+
+  .house-tags {
+    width: 100%;
+    font-size: 0.7rem;
+  }
 
 .host-infos-container{
   position: relative;
