@@ -42,9 +42,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media only screen and (min-width: 1026px) {
 .house-host-rating {
   display: flex;
-  
+  flex-direction: column;
+}
 }
 
 .host-infos-container {
@@ -52,6 +54,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+.host-rating {
+  margin: 1rem 0;
 }
 
 .host-profil {
@@ -68,9 +74,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.host-rating {
-  margin: 1rem 0;
-}
+
 
 @media only screen and (max-width: 1155px) {
   .house-infos-container {
@@ -93,11 +97,11 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
   .host-rating {
-  position: absolute;
-  left: 18.33%;
-  top: 89.33%;
+    position: absolute;
+    left: 17.33%;
+    top: 89%;
   }
   
   .host-infos-container{
@@ -115,8 +119,8 @@
 @media only screen and (max-width: 470px) {
   .host-rating {
     position: relative;
-    left: -220px;
-    top: 7px;
+    left: -110px;
+    top: -60px;
   }
 
   .house-tags {
@@ -129,13 +133,21 @@
     left: 58%;
     margin-bottom: 1rem;
   }
+
+  .house-host-rating {
+    height: 80px;
+  }
   }
 
 @media only screen and (max-width: 370px) {
   .host-rating {
     position: relative;
-    left: -200px;
-    top: 7px;
+    left: -90px;
+    top: -60px;
+}
+.house-host-rating {
+    height: 80px;
+  }
   }
 
   .house-tags {
@@ -143,9 +155,4 @@
     font-size: 0.7rem;
   }
 
-.host-infos-container{
-  position: relative;
-  left: 58%;
-  margin-bottom: 1rem;
-}
-}
+  
